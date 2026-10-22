@@ -1,6 +1,6 @@
 import java.util.*;//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
- class Calculator{
+class Calculator{
     public int add(int a,int b){
         return a+b;
     }
@@ -23,13 +23,13 @@ public class Main {
         boolean bool = true;
         while(bool){
             System.out.print("Enter Your Operations[ADD,SUB,MUL,DIV,EXIT] :");
-             String op = sc.next();
+            String op = sc.next();
             switch(op.toLowerCase()){
                 case "add":
-            System.out.print("Enter number 1: ");
-            int a1 = sc.nextInt();
-            System.out.print("Enter number 2: ");
-            int b1 = sc.nextInt();
+                    System.out.print("Enter number 1: ");
+                    int a1 = sc.nextInt();
+                    System.out.print("Enter number 2: ");
+                    int b1 = sc.nextInt();
                     System.out.println("Addition : " + obj.add(a1,b1));
                     break;
                 case "sub":
